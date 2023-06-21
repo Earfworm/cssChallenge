@@ -7,6 +7,7 @@ p {
 
 body {
   box-sizing: border-box;
+  height: 100vh;
 }
 
 header {
@@ -16,4 +17,29 @@ header {
   align-items: center;
   background-color: cornflowerblue;
   padding: 20px;
+}
+main {
+  padding: 20px;
+}
+
+main .challenge-1 h2 {
+  margin-bottom: 20px;
+}
+main section ul {
+  margin: 0px 0px 0px 3em;
+}
+
+.position-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: 2px dashed cornflowerblue;
+}
+
+.position-1 .circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background-color: cornflowerblue;
 }
